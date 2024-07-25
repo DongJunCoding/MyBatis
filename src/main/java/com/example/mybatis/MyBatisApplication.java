@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.example.controller", "com.example.config", "com.example.service", "com.example.dto", "com.example.dao", "com.example.mapper" } ) 
+@ComponentScan(basePackages = { "com.example.controller", "com.example.config", "com.example.service", "com.example.dto", "com.example.mapper" } ) 
 @MapperScan("com.example.mapper")
 public class MyBatisApplication {
 
